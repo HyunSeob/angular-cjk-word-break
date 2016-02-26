@@ -17,10 +17,6 @@
   ],
   "author": "HyunSeob <sytte1017@gmail.com> (http://hyunseob.github.io)",
   "license": "MIT",
-  "ignore": [
-    "bower_components",
-    "example.html"
-  ],
   "bugs": {
     "url": "https://github.com/HyunSeob/angular-cjk-word-break/issues"
   },
