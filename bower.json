@@ -1,0 +1,30 @@
+{
+  "name": "angular-cjk-word-break",
+  "version": "0.1.0",
+  "homepage": "https://github.com/HyunSeob/angular-cjk-word-break",
+  "authors": [
+    "HyunSeob <sytte1017@gmail.com>"
+  ],
+  "description": "Simple angular filter for line break of cjk words.",
+  "main": "angular-cjk-word-break.js",
+  "keywords": [
+    "angularjs",
+    "angular",
+    "filter",
+    "cjk",
+    "wordbreak",
+    "linebreak"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "example.html"
+  ],
+  "dependencies": {
+    "angular": "1.2.0"
+  }
+}

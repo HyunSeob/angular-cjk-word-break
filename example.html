@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="testApp">
+<head>
+  <title>Angular CJK Word Break Example Page</title>
+</head>
+<body>
+  <div ng-controller="testCtrl">
+    <p ng-bind-html="text | cjkWordBreak" ng-style="{ width: width + 'px' }"></p>
+    <input ng-model="width" placeholder="Set the paragraph width!"/>
+  </div>
+  <script type="text/javascript" src="./bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="./angular-cjk-word-break.js"></script>
+  <script type="text/javascript">
+    (function(angular) {
+      var app = angular.module('testApp', ['cjkWordBreak']);
+
+      app.controller('testCtrl', [ '$scope', '$filter', function ($scope, $filter) {
+        $scope.width = 200;
+        $scope.text = '서울시가 잠이 든 시간에 아무 말 없는 밤 하늘은 침착해 그와 반대로 지금 내 심장은 오늘만 살 것처럼 아주 긴박해 살아있음을 느낄 때면, 난 산송장처럼 눕긴 싫어! 지금 이 순간이 훗날 죽이 되더라도 취침 시간을 뒤로 미뤄, 미뤄, 미뤄';
+      }]);
+    })(window.angular);
+  </script>
+</body>
+</html>
