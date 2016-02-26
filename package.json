@@ -1,6 +1,6 @@
 {
   "name": "angular-cjk-word-break",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple angular filter for line break of CJK words.",
   "main": "index.js",
   "repository": {
