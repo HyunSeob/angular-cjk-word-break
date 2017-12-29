@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/HyunSeob/angular-cjk-word-break#readme",
   "dependencies": {
-    "angular": "1.6.1"
+    "angular": "1.6.7"
   }
 }
